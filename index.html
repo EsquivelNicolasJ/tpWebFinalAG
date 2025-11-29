@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>El Cohete</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      html { scroll-behavior: smooth; }
+      body { margin: 0; }
+
+      .cohete-nav {
+        --bs-navbar-bg: #111111;
+        background-color: var(--bs-navbar-bg) !important;
+        border-bottom: 1px solid #222;
+      }
+      .navbar-toggler {
+  border-color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+
+      .cohete-nav .nav-link {
+        color: #ffffff !important;
+        font-weight: 500;
+      }
+
+      .cohete-nav .nav-link:hover { opacity: 0.6; }
+
+      .cohete-nav .navbar-brand {
+        color: #ffffff !important;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+      }
+
+      .section-padding { padding-top: 80px; }
+
+      .proc-img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+      }
+
+      
+      .img-cuento { max-width: 800px; width: 100%; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+    </style>
+  </head>
+
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg cohete-nav fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">El Cohete</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cuento">Cuento</a></li>
+            <li class="nav-item"><a class="nav-link" href="#procedimiento">Procedimiento</a></li>
+            <li class="nav-item"><a class="nav-link" href="#AventuraGrafica">Aventura Gráfica</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Nueva carpeta/elcohete0.jpg" class="d-block w-100" alt="Imagen1">
+    </div>
+    <div class="carousel-item">
+      <img src="Nueva carpeta/elcohete11.jpg" class="d-block w-100" alt="Imagen2">
+    </div>
+    <div class="carousel-item">
+      <img src="Nueva carpeta/elcohete17.jpg" class="d-block w-100" alt="Imagen3">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+    
+    <section id="nosotros" class="section-padding">
+      <div class="container">
+        <h1 class="text-center mb-4">Nosotros</h1>
+        <p class="text-center">
+          Somos una dupla de estudiantes encabezando la última instancia de nuestro primer año cursando en la Facultad de Artes de la Universidad Nacional de La Plata, presentando el trabajo final de Programación Web 
+        </p>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Iara Camilletti</h5>
+                <p class="card-text">
+                  Nacida un 19 de septiembre de 2006 estudiante de la Facultad de Artes UNLP en la carrera de Diseño Multimedial. Se destaca por su creatividad, enfoque visual y compromiso en cada proyecto. Creció en un ámbito artístico desde chica, por su papá dibujante y fotógrafo, fue a talleres de arte desde chica, empezó por el dibujo y en la adolescencia se intereso por el dibujo digital y los videojuegos. Su aporte artístico fue clave para dar vida a nuestra novela gráfica.
+                  , a ella le gusta encargarse sobre todo de lo estético y dinámico de los proyectos, por eso encajo tan bien con su compañero Nicolás para trabajar juntos en este trabajo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="card-title">Nicolás Javier Esquivel</h5>
+                <p class="card-text">
+                  Nacido el 15 de diciembre de 2006, creció rodeado de creatividad gracias a la influencia de su padre, diseñador gráfico, quien despertó en él una conexión temprana con el arte. Desde pequeño exploró la ilustración, la edición y el sonido, descubriendo en cada área una forma distinta de contar ideas. En 2022 decidió estudiar Diseño Multimedial, un camino que encajó naturalmente con su sensibilidad estética. Su perfeccionismo visual y sonoro lo impulsa a buscar proyectos donde todo dialogue con coherencia: la imagen, el ritmo, la ambientación y la experiencia final. Hoy continúa construyendo una identidad creativa que combina técnica, intuición y una mirada narrativa en constante evolución.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+<section id="cuento" class="section-padding">
+  <div class="container">
+    <h1 class="text-center mb-4">Cuento</h1>
+
+    <div class="row g-4 align-items-center">
+
+      
+      <div class="col-md-6">
+        <p class="text-center text-md-start">El cuento "El Cohete" de Ray Bradbury narra la historia de Fiorello Bodoni, un humilde chatarrero obsesionado con el espacio que, tras años de esfuerzo, logra ahorrar para que un miembro de su familia (esposa y siete hijos) pueda viajar a Marte. Sin embargo, se da cuenta de que enviar a uno solo generaría envidia y resentimiento irrecuperables en el resto. Para preservar la unidad familiar y darles a todos el sueño, Bodoni gasta el dinero en un cohete desechado de utilería. Lo reacondiciona con luces y sonidos y, sin moverlo jamás de su patio, simula un largo y detallado viaje a Marte para sus hijos. De esta manera, les regala a todos la misma experiencia de esperanza y aventura, logrando que el sueño se comparta sin romper la armonía.
+        </p>
+        <h2>¿Quien es Ray Bradbury?</h2>
+        <p>Ray Bradbury (1920-2012) fue un influyente escritor estadounidense, mundialmente reconocido por sus contribuciones a la ciencia ficción, la fantasía y el terror. Su estilo se caracterizó por ser lírico y evocador. Entre sus obras más célebres se encuentran la novela distópica Fahrenheit 451, sobre la quema de libros, y las colecciones de relatos Crónicas marcianas y El hombre ilustrado.</p>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center gap-3">
+
+
+          <img src="Nueva carpeta/Ray.jpg"
+               class="img-fluid rounded shadow"
+               style="width: 30%; object-fit: cover;"
+               alt="Imagen pequeña del cuento">
+
+
+          <img src="Nueva carpeta/Cuento.jpg"
+               class="img-fluid rounded shadow"
+               style="width: 40%; object-fit: cover;"
+               alt="Imagen grande del cuento">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="procedimiento" class="section-padding">
+      <div class="container">
+        <h1 class="text-center mb-4">Procedimiento</h1>
+        <p class="text-center">El procedimiento del trabajo de programación de la aventura gráfica fue realizado de la siguiente manera:</p>
+
+        <div class="row g-4">
+
+          
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">Lectura</h5>
+                <p class="card-text">Para toda creación de una aventura gráfica basada en un cuento, es un requisito indispensable la lectura y comprensión total del texto fuente. Este fue el punto de partida: nos sumergimos en el cuento "El Cohete" de Ray Bradbury. Esta lectura inicial nos dotó de la trama y nos permitió captar la atmósfera melancólica y la profundidad emocional de la obra. Con esta base sólida, podemos asegurar que el desarrollo de la aventura gráfica se encamine de la manera más fiel posible a la visión original del autor.</p>
+              </div>
+              
+            </div>
+          </div>
+
+          
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">Guion</h5>
+                <p class="card-text">Una vez leído el cuento, pasamos por la etapa de armar el guion. No fue fácil incorporar los finales alternativos que caracterizan a nuestra aventura gráfica; mantuvimos el desafío de que cada ramificación conservara la mayor coherencia narrativa posible con la esencia de Bradbury y las decisiones tomadas por el jugador. Una vez teniendo el guion finalizado, procedimos a armar un flujo de diagrama (o flowchart). Esta herramienta visual fue esencial para determinar la cantidad exacta de escenas e imágenes requeridas, y crucial para asegurar la linealidad y la correcta interconexión de la historia a través de todos sus posibles desenlaces.</p>
+              </div>
+              
+            </div>
+          </div>
+
+          
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">Diseño Visual</h5>
+                <p class="card-text">Para la fase de diseño visual, el profesor nos concedió la libertad de usar Inteligencia Artificial para generar las imágenes, empleando Gemini para establecer escenarios conceptuales. Posteriormente, para garantizar la máxima calidad, cada imagen fue sometida a un retoque gráfico intensivo en Adobe Photoshop. Este proceso híbrido fue crucial para que todas las ilustraciones mantuvieran una estética visual bien marcada y homogénea, asegurando la coherencia en la paleta de colores y las escenografías de la aventura gráfica..</p>
+              </div>
+              <img src="Nueva carpeta/Visual.jpg" class="card-img-bottom proc-img" alt="Diseño Visual">
+            </div>
+          </div>
+
+          
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title">Programación</h5>
+                <p class="card-text">A la hora de programar, primero empezamos con Processing, el software que veníamos usando habitualmente, pero al ser un trabajo de a dos, se nos complicaba a la hora de mantener un mismo código, entonces optamos por usar Visual Studio Code para desarrollar un trabajo mucho mas en conjunto y con cambios en tiempo real. Una vez terminado, el trabajo volvió a ser abierto por Processing, para la ultima parte, que fue agregar efectos especiales y música de ambientación.</p>
+              </div>
+              <img src="Nueva carpeta/Programacion.jpg" class="card-img-bottom proc-img" alt="Programación">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div>
+        
+<section id="AventuraGrafica" class="section-padding">
+  <div class="container">
+    <h1 class="text-center mb-4">Aventura Gráfica</h1>
+
+    <p class="text-center mx-auto" style="max-width: 800px;">
+      Este fue el resultado de nuestro trabajo final en conjunto.
+    </p>
+
+   <div class="d-flex justify-content-center">
+  <iframe src="p5/index.html" frameborder="2" width="650" height="490"></iframe>
+</div>
+
+    <p class="text-center mx-auto mt-4" style="max-width: 800px;">
+      El objetivo fue capturar la esencia del cuento original y traducirla a un formato
+      multimedial que permita explorar emociones, metáforas y finales alternativos.
+    </p>
+
+  </div>
+</section>
+
+<footer class="bg-dark text-light py-4 mt-5">
+  <div class="container text-center">
+
+    <h5 class="mb-3">El Cohete</h5>
+
+    <p class="mb-1">Trabajo Final — Programación Web</p>
+    <p class="mb-1">Facultad de Artes — UNLP</p>
+
+    <div class="mt-3">
+
+    </div>
+
+    <p class="mt-3" style="font-size: 0.9rem; opacity: 0.6;">
+      2025 Noviembre - Programacion para medios interactivos orientada a tecnologias web    </p>
+
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
